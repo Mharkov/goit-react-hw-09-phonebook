@@ -1,0 +1,30 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.name {
+  font-weight: 700;
+  margin-right: 12;
+}
+
+.button {
+  padding: 5px 5px;
+  margin-left: 5px;
+  font-family: inherit;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid #cacaca;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  transition: all 500ms cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.button:hover {
+  transform: scale(0.95);
+  background-color: rgb(86, 126, 158);
+  border-color: rgb(85, 128, 163);
+  color: #ffffff;
+  box-shadow: 0 0 40px rgba(0, 0, 0, 0.1) inset;
+}
