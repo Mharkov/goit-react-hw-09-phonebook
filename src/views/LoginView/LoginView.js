@@ -22,7 +22,7 @@ const LoginView = () => {
 
   return (
     <div>
-      <h2>LoginView</h2>
+      <h2>Sign in to Phonebook</h2>
 
       <form onSubmit={handleSubmit} className={style.form}>
         <label className={style.label}>

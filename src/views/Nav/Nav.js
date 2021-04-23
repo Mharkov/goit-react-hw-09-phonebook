@@ -21,17 +21,18 @@ const Nav = () => {
             Home
           </NavLink>
         </li>
-        {IsisAuthorized && (
-          <li className={styles.navListItem}>
-            <NavLink
-              to={routes.CONTACTS}
-              className={styles.Link}
-              activeClassName={styles.linkFocusColor}
-            >
-              Contacts
-            </NavLink>
-          </li>
-        )}
+        {/* {IsisAuthorized && ( */}
+        <li className={styles.navListItem}>
+          <NavLink
+            exact
+            to={routes.CONTACTS}
+            className={styles.Link}
+            activeClassName={styles.linkFocusColor}
+          >
+            Contacts
+          </NavLink>
+        </li>
+        {/* )} */}
       </ul>
     </nav>
   );

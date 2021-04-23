@@ -25,7 +25,7 @@ const RegisterView = () => {
 
   return (
     <div>
-      <h2>RegisterView</h2>
+      <h2>Create your account</h2>
 
       <form onSubmit={handleSubmit} className={style.form}>
         <label className={style.label}>

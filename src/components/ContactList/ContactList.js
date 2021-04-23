@@ -11,7 +11,7 @@ const ContactList = () => {
 
   const onDel = (id) => dispatch(contactOperations.contactDelete(id));
 
-  useEffect(() => dispatch(contactOperations.fetchContacts()), [dispatch]);
+  // useEffect(() => dispatch(contactOperations.fetchContacts()), [dispatch]);
 
   return (
     <ul className={styles.TaskList}>
