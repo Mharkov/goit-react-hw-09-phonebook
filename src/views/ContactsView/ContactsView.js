@@ -15,9 +15,9 @@ const ContactsView = () => {
   return (
     <>
       <h1>Phonebook</h1>
-
-      {loading && <h1>Загружаем ...</h1>}
       <ContactForm />
+      {loading && <h1>Загружаем ...</h1>}
+
       <h2>Contacts</h2>
       <Filter />
       <ContactList />
